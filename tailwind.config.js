@@ -4,6 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,svelte}"
   ],
+  safelist: [
+    {
+      pattern: /(bg|text)-notion-.*/
+    },
+    {
+      pattern: /font-.*/
+    }
+  ],
   theme: {
     extend: {
       colors: {
@@ -33,7 +41,8 @@ export default {
         }
       },
       fontFamily: {
-        'neon': []
+        'neon': ['"Monoton"', 'cursive'],
+        'retro': ['"Press Start 2P"', 'cursive']
       }
     },
   },

@@ -4,7 +4,7 @@
 </svelte:head>
 
 <section>
-	<div class="text-2xl">
+	<div class="text-2xl font-retro">
 		Mommy
 	</div>
 </section>
