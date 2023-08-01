@@ -45,7 +45,8 @@ export default {
       },
       fontFamily: {
         'neon': ['"Monoton"', 'cursive'],
-        'retro': ['"Press Start 2P"', 'cursive']
+        'retro': ['"Press Start 2P"', 'cursive'],
+        'lizard': ['"Kablammo"', 'cursive']
       }
     },
   },
