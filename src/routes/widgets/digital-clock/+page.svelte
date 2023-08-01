@@ -1,10 +1,10 @@
 <section>
-    <div class={`w-full h-screen  text-${theme_info.direction} flex items-center justify-center bg-notion-background-${theme_info.theme} text-notion-${theme_info.color}-${theme_info.theme} font-${theme_info.font}`}>
+    <div class={`w-full h-screen text-${theme_info.direction} flex items-center justify-center bg-notion-background-${theme_info.theme} text-notion-${theme_info.color}-${theme_info.theme} font-${theme_info.font}`}>
         <div>
-            <h2 class="text-xl md:text-6xl lg:text-9xl">
+            <h2 class="text-xl sm:text-6xl lg:text-9xl">
                 {date_info.hours}:{(date_info.minutes < 10) ? '0' + date_info.minutes : date_info.minutes}:{(date_info.seconds < 10) ? '0' + date_info.seconds : date_info.seconds}
             </h2>
-            <h3 class="text-sm md:text-2xl lg:text-3xl">
+            <h3 class="text-sm sm:text-2xl lg:text-3xl">
                 {date_info.day} the {date_info.date}{getDateSuffix(date_info.date)} of {date_info.month} {date_info.year}
             </h3>
         </div>
