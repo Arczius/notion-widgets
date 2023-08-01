@@ -31,6 +31,9 @@ export default {
           'red-light': '#E03E3E',
           'red-dark': '#FF7369',
         }
+      },
+      fontFamily: {
+        'neon': []
       }
     },
   },
