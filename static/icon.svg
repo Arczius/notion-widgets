@@ -1,0 +1,22 @@
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+    <polygon fill="#feea62" points="
+        80, 45
+        240, 45
+        260, 85
+        260, 300
+        240, 320
+        80, 320
+        60, 300
+        60, 85
+    "/>
+    <polygon fill="#102772" points="
+        60, 110
+        260, 110
+        260, 200
+        60, 200
+    "/>
+    <text x="68" y="173" font-family="sans-serif" font-size="4rem" fill="#ffffff">
+        Notion
+    </text>
+    <ellipse fill="#102772" cx="160" cy="30" rx="100" ry="30" />
+</svg>
