@@ -1,5 +1,5 @@
 <section>
-    <div class={`w-full h-screen text-right flex items-center justify-center bg-notion-background-${theme_info.theme} text-notion-${theme_info.color}-${theme_info.theme} font-${theme_info.font}`}>
+    <div class={`w-full h-screen  text-${theme_info.direction} flex items-center justify-center bg-notion-background-${theme_info.theme} text-notion-${theme_info.color}-${theme_info.theme} font-${theme_info.font}`}>
         <div>
             <h2 class="text-xl md:text-6xl lg:text-9xl">
                 {date_info.hours}:{(date_info.minutes < 10) ? '0' + date_info.minutes : date_info.minutes}:{(date_info.seconds < 10) ? '0' + date_info.seconds : date_info.seconds}
@@ -18,7 +18,8 @@ import getThemeInfo from "../../../functions/getThemeInfo";
 const theme_info = {
     theme: 'light',
     font: 'sans',
-    color: 'purple'
+    color: 'purple',
+    direction: 'right'
 }
 
 function setTheme(){
@@ -26,6 +27,7 @@ function setTheme(){
     theme_info.theme = theme.theme
     theme_info.font = theme.font
     theme_info.color = theme.color
+    theme_info.direction = theme.direction
 }
 setTheme()
 

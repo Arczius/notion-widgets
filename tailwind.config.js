@@ -6,6 +6,9 @@ export default {
   ],
   safelist: [
     {
+      pattern: /text-(left|right|center)/
+    },
+    {
       pattern: /(bg|text)-notion-.*/
     },
     {
